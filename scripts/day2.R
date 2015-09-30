@@ -1,6 +1,9 @@
 ## R course day 2
 ## 29 Sept 2015
 ## that was awesome
+## i learned a lot
+## the plots were MUITO BOM
+
 # load packages -----------------------------------------------------------
 
 library(ggplot2)
@@ -9,10 +12,10 @@ library(ggplot2)
 
 gapminder <- read.csv("data/gapminder.csv")
 
-
 # load functions ----------------------------------------------------------
 
 source("scripts/functions.R")
+
 # # subsetting review -----------------------------------------------------
 
 #methods of subsetting
@@ -163,7 +166,6 @@ cv
 
 #DRY - Don't repeat yourself
 
-
 # R functions! ------------------------------------------------------------
 
 cal_CV(iris$Sepal.Length)
@@ -194,7 +196,6 @@ head(circs)
 
 ggplot(circs, aes(x=xs, y = areas)) +
   geom_line()
-
 
 # Saving data -------------------------------------------------------------
 
