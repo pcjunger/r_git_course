@@ -1,6 +1,6 @@
 ## R course day 2
-## 28 Sept 2015
-
+## 29 Sept 2015
+## that was awesome
 # load packages -----------------------------------------------------------
 
 library(ggplot2)
